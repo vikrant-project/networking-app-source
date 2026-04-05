@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 R.id.navigation_connections, R.id.navigation_dns,
                 R.id.navigation_stats, R.id.navigation_pcap)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         
         if (id == R.id.action_settings) {
-            NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+            NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
             navController.navigate(R.id.navigation_settings);
             return true;
         }
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavController navController = Navigation.findNavController(this, R.id.navHostFragment);
         return navController.navigateUp() || super.onSupportNavigateUp();
     }
 }

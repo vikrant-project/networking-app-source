@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Light theme for day mode -->
-    <style name="Theme.SoulDevil" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.SoulDevil" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/red_accent</item>
@@ -8,5 +8,7 @@
         <item name="colorSurface">#F5F5F5</item>
         <item name="android:statusBarColor">@color/primary</item>
         <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
     </style>
 </resources>
+

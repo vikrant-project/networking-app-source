@@ -11,4 +11,7 @@
     <string name="no_connections">No connections yet</string>
     <string name="no_dns_records">No DNS records</string>
     <string name="no_pcap_files">No PCAP files</string>
+    
+    <!-- AppBarLayout behavior -->
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
 </resources>
