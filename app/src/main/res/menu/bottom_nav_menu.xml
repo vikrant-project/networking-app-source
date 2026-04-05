@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_connections"
+        android:icon="@drawable/ic_connections"
+        android:title="Connections" />
+
+    <item
+        android:id="@+id/navigation_dns"
+        android:icon="@drawable/ic_dns"
+        android:title="DNS" />
+
+    <item
+        android:id="@+id/navigation_stats"
+        android:icon="@drawable/ic_stats"
+        android:title="Stats" />
+
+    <item
+        android:id="@+id/navigation_pcap"
+        android:icon="@drawable/ic_folder"
+        android:title="Files" />
+
+</menu>

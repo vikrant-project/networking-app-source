@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#CC0000</color>
+    <color name="primary_dark">#990000</color>
+    <color name="secondary">#1A1A2E</color>
+    <color name="background">#0F0F1A</color>
+    <color name="surface">#1C1C2E</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="red_accent">#E94560</color>
+    
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Protocol colors -->
+    <color name="tcp_blue">#2196F3</color>
+    <color name="udp_green">#4CAF50</color>
+    <color name="dns_orange">#FF9800</color>
+    <color name="https_purple">#9C27B0</color>
+</resources>

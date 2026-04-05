@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_connections">
+
+    <fragment
+        android:id="@+id/navigation_connections"
+        android:name="com.souldevil.networktool.ui.connections.ConnectionsFragment"
+        android:label="Connections" />
+
+    <fragment
+        android:id="@+id/navigation_dns"
+        android:name="com.souldevil.networktool.ui.dns.DnsFragment"
+        android:label="DNS" />
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.souldevil.networktool.ui.stats.StatsFragment"
+        android:label="Statistics" />
+
+    <fragment
+        android:id="@+id/navigation_pcap"
+        android:name="com.souldevil.networktool.ui.pcap.PcapFragment"
+        android:label="PCAP Files" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.souldevil.networktool.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>
